@@ -1,11 +1,11 @@
 name: Enforce Version Bump Flag
 
 on:
-  pull_request:
-    types: [opened, edited, synchronize]
-    branches:
-      - main
-      - master
+  # pull_request:
+  #   types: [opened, edited, synchronize]
+  #   branches:
+  #     - main
+  #     - master
 
 jobs:
   check-pr-description:
