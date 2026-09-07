@@ -1,10 +1,10 @@
 name: test
 
 on:
-  push:
-    paths:
-      - "src/**"
-      - "test/**"
+  # push:
+  #   paths:
+  #     - "src/**"
+  #     - "test/**"
   workflow_dispatch:
 
 jobs:
